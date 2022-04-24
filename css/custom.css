@@ -190,9 +190,9 @@ h3.sectionTitle {
 	padding-bottom: 60px;
 }
 #featureWrap .icon {
-	-webkit-transition:All 0.2s linear;
-	-moz-transition:All 0.2s linear;
-	-o-transition:All 0.2s linear;
+	--webkit-transition:All 0.2s linear;
+	--moz-transition:All 0.2s linear;
+	--o-transition:All 0.2s linear;
 }
 #featureWrap .fa-stack.icnC {
     color: #428BCA;
@@ -370,9 +370,11 @@ h3.sectionTitle {
     font-weight: 300;
     margin-bottom: 40px;
 }
+/*
 #contactWrap label {
 
 }
+*/
 #contactWrap .form-control {
     border: 1px solid #c5c5c5;
     height: 38px;
