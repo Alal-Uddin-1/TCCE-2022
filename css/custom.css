@@ -33,10 +33,10 @@ a {
 h2.sectionTitle {
 	color: #428BCA;
     font-size: 50px;
-    margin-top: 0;
+    margin-top: 10px;
     text-align: center;
 	font-weight: 700;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 h3.sectionTitle {
     text-align: center;
@@ -263,6 +263,18 @@ h3.sectionTitle {
 	list-style: none outside none;
 	text-align: center;
 }
+.priceTable h4{
+	color: #982925;
+	font-size: 25px;
+}
+.priceTable .features li{
+	color: #428BCA;
+	font-size: 15px;
+	line-height: 1.7;
+	letter-spacing: 1.5px;
+	list-style-type: square;
+}
+
 #pricingWrap .priceTable .title {
 	color: #333333;
 	font-size: 34px;
@@ -520,4 +532,10 @@ footer .social a .fa-inverse {
 	#pricingWrap .priceTable {
 		margin-bottom: 60px;
 	}
+}
+
+/*   others  */
+.biography{
+	margin-top: 5px;
+	
 }
